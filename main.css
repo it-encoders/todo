@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+header {
+    color: #fff;
+    height: 100px;
+    padding: 2rem 1rem;
+    text-align: center;
+    background-color: #30336b;
+}
+
+h1 {
+    margin: 0;
+}
+
+form {
+    width: 500px;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+form input, form select {
+    padding: 0.5rem 1rem;
+}
+
+input[type="text"] {
+    width: 100%;
+}
+
+form > button {
+    cursor: pointer;
+    background-color: #30336b;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+}
+
+ul {
+    list-style: none;
+    width: 500px;
+    margin: 2rem auto;
+    padding: 0;
+}
+
+.todo-item {
+    display: flex;
+    gap: 1rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.close {
+    color: red;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.close:hover {
+    color: tomato;
+}
